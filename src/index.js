@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import reportWebVitals from "./reportWebVitals";
+//1. starRating Section
+// import StarRating from "./StarRating/StarRating";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <StarRating limit={5} />
+//   </React.StrictMode>
+// );
+
+//2. Search App section
+import SearchApp from "./SearchApp/SearchApp";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+const list = ["Sujit", "Rishabh", "Anubhav", "Ashish", "Harsh"];
 root.render(
   <React.StrictMode>
-    <App />
+    <SearchApp list={list} />
   </React.StrictMode>
 );
 
