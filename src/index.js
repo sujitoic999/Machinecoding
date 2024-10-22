@@ -14,12 +14,22 @@ import reportWebVitals from "./reportWebVitals";
 // );
 
 //2. Search App section
-import SearchApp from "./SearchApp/SearchApp";
+// import SearchApp from "./SearchApp/SearchApp";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// const list = ["Sujit", "Rishabh", "Anubhav", "Ashish", "Harsh"];
+// root.render(
+//   <React.StrictMode>
+//     <SearchApp list={list} />
+//   </React.StrictMode>
+// );
+
+//3. Carousel Section
+import Carousel from "./Carousel/Carousel";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const list = ["Sujit", "Rishabh", "Anubhav", "Ashish", "Harsh"];
+
 root.render(
   <React.StrictMode>
-    <SearchApp list={list} />
+    <Carousel />
   </React.StrictMode>
 );
 
