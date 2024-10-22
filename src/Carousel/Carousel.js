@@ -51,7 +51,7 @@ const Carousel = () => {
         console.log("index", index);
         setIndex(index + 1);
       }
-    }, 1000);
+    }, 1500);
     return ()=>{clearInterval(timer)}
   }, [index]);
 
