@@ -24,12 +24,21 @@ import reportWebVitals from "./reportWebVitals";
 // );
 
 //3. Carousel Section
-import Carousel from "./Carousel/Carousel";
+// import Carousel from "./Carousel/Carousel";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//   <React.StrictMode>
+//     <Carousel />
+//   </React.StrictMode>
+// );
+
+import SortingApiData from "./SortingApiData/SortingApiData";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Carousel />
+    <SortingApiData />
   </React.StrictMode>
 );
 
