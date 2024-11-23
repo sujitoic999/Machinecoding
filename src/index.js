@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import explorer from "./FolderStructure/data/filedata";
 import "./index.css";
 // import App from "./App";
 
@@ -33,12 +34,46 @@ import reportWebVitals from "./reportWebVitals";
 //   </React.StrictMode>
 // );
 
-import SortingApiData from "./SortingApiData/SortingApiData";
+//4. SortingApiData in table
+
+// import SortingApiData from "./SortingApiData/SortingApiData";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//   <React.StrictMode>
+//     <SortingApiData />
+//   </React.StrictMode>
+// );
+
+//5. Todo list section
+
+// import Todo from "./Todo/Todo";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//   <React.StrictMode>
+//     <Todo />
+//   </React.StrictMode>
+// );
+
+//6. FolderStructure section
+
+// import Folder from "./FolderStructure/components/Folder";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//   <React.StrictMode>
+//     <Folder explorer={explorer} />
+//   </React.StrictMode>
+// );
+
+//7. Infinite Scroll
+import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <SortingApiData />
+    <InfiniteScroll />
   </React.StrictMode>
 );
 
